@@ -12,7 +12,7 @@ img {
 }
 
 header {
-  background: url(../img/bd-header.png);
+  background: url(../img/bd-header.png) no-repeat;
   border-top: solid black 8px;
 }
 
@@ -54,5 +54,71 @@ header p {
   color: #060e17;
 }
 
+h2 {
+  font-size: 30px;
+  font-weight: 300;
+}
 
+.section-light {
+  background-color: #e3f4ff;
+  padding: 60px;
+}
 
+.section-light img {
+  height: 40px;
+}
+
+.section-dark {
+  background-color: #060e17;
+  padding: 40px 30px;
+}
+
+.section-dark h2 {
+  color: #e3f4ff;
+}
+
+.section-dark img {
+  height: 80px;
+}
+
+.section-dark a {
+  font-size: 14px;
+  color: black;
+}
+
+h3 {
+  font-size: 23px;
+  font-weight: 300;
+}
+
+.container-article-twitter {
+  background-color: #e3f4ff;
+  padding: 0 38px 25px;
+  border-radius: 20px;
+  text-align: left;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.container-article-twitter .element-button {
+  align-self: flex-end;
+}
+
+.container-article-money {
+  background-color: #e3f4ff;
+  padding: 0 38px 25px;
+  border-radius: 20px;
+  text-align: left;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.container-article-money .element-button {
+  align-self: flex-end;
+}
+
+.container {
+  margin-bottom: 60px;
+}
