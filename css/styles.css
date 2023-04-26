@@ -44,6 +44,7 @@ header p {
   background: #060e17;
   color: white;
   text-decoration: none;
+  font-weight: 300;
   border-radius: 15px;
   padding: 10px 25px;
   margin-bottom: 18px;
@@ -98,6 +99,7 @@ h3 {
   text-align: left;
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
   flex-wrap: wrap;
 }
 
@@ -112,6 +114,7 @@ h3 {
   text-align: left;
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
   flex-wrap: wrap;
 }
 
@@ -121,4 +124,10 @@ h3 {
 
 .container {
   margin-bottom: 60px;
+}
+
+.cta-end-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
