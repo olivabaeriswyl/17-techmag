@@ -2,9 +2,33 @@ body {
   max-width: 320px;
   margin: auto;
   background: #ddd;
+  font-family: sans-serif;
+  text-align: center;
 }
 
 img {
   display: block;
   max-width: 100%;
 }
+
+header {
+  background: url(../img/technology-texture.png);
+}
+
+header div {
+  background: black;
+}
+
+.cta {
+  background: #060e17;
+  color: white;
+  text-decoration: none;
+  border-radius: 15px;
+  padding: 10px 25px;
+}
+
+.cta-light {
+  background: #e3f4ff;
+  color: #060e17;
+}
+
